@@ -36,6 +36,7 @@ The goals / steps of this project are the following:
 
 ### Here I will consider the rubric points individually and describe how I addressed each point in my implementation.  
 
+
 ---
 
 ### Writeup / README
@@ -191,3 +192,5 @@ Another very important factor to consider is lane changing which is not tested w
 
 
 Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
+
+References: Udacity Self Driving Car Nano Degree program - course material
