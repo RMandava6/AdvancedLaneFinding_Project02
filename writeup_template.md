@@ -1,6 +1,6 @@
 # Advanced Lane Finding_Project02
 
-## Udacity Self driving engineer nano degree program - Project 01 - Finding Lane Lines
+## Udacity Self driving engineer nano degree program - Project 02 - Advanced Lane Finding
 
 ### In this project, lanes on the road have been identified by following as series of techniques such as, Distortion correction, Color and Gradient thresholding, Second order polynomial fit and checking other lane conditions. The goal of this project is to develop a software pipeline to identify the lane boundaries and plot it on a video stream.
 
