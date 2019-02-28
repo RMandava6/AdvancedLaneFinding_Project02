@@ -28,7 +28,7 @@ The goals / steps of this project are the following:
 [image6]: ./output_images/warped.png "warped"
 [image7]: ./output_images/sliding.png "sliding"
 [image8]: ./output_images/searcharound.png "searcharound"
-[image9]: ./output_images/drwaonimage.png "drawonimage"
+[image9]: ./output_images/drawonimage.png "drawonimage"
 
 [video1]: ./project_video.mp4 "Video"
 
@@ -71,7 +71,7 @@ Below are the resulting images from Color Thresholds that I liked the most:
 
 ![alt text][image3]
 
-Further a combination absolute sobel, Magnitude and Directional gradient thresholds are used to generate binary images and below is a example of the binary image from this combined gradient thresholding:
+Further a combination of absolute sobel, Magnitude and Directional gradient thresholds are used to generate binary images and below is a example of the binary image from this combined gradient thresholding:
 
 ![alt text][image4]
 
@@ -189,8 +189,5 @@ Here's a [link to my video result](./result_video/project_video_output.mp4)
 Most time has been spent in visualizing video frames after applying the color and gradient thresholding techniques to see which method yields a good image in general with minimal noise to be able to properly detect the lanes. Also, for the sake of warping and applying sliding window techniques, a specific polygon(area on the lane) has been selected manually after observing the overall video stream. This is not the best way, as objects like other cars crossing paths within these boundaries will completely ruin the lane identification. Also, in extreme weather conditions like snow and rain, other thresholding appraoches might have to be used and the R channel binary might not be very generic to cover all these conditions.
 
 Another very important factor to consider is lane changing which is not tested with the current appraoch where we have the video stream for a single lane. A more robust appraoch would be when these various other conditions such as weather, objects crossing paths and lane changing can be taken into account and somehome bringing in predictive models inorder to implement actual dynamic behviour of vehicles and humans on roads.
-
-
-Here I'll talk about the approach I took, what techniques I used, what worked and why, where the pipeline might fail and how I might improve it if I were going to pursue this project further.  
 
 References: Udacity Self Driving Car Nano Degree program - course material
